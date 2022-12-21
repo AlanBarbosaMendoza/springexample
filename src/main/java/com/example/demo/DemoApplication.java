@@ -12,7 +12,8 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Alan, Hola mundo desde mi primer microservico en Java 17 desde el IPN!!!!!!!";
+        System.out.println("Este es el log de mi microservicio");
+        return "Cambio en la rama api, desde Openshift!!!!!!!";
     }
 
     public static void main(String[] args) {
